@@ -1,0 +1,292 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF;
+}
+
+nav {
+    width: 85%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 12px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo img {
+    width: 139px;
+    height: auto;
+    display: block;
+}
+
+
+nav > div:last-child {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #14263D;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.btn {
+    background-color: #39865B;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+.banner-container {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;       
+    text-align: center;
+    overflow: hidden;
+}
+
+
+.banner-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    z-index: 0;
+}
+
+
+.banner-content {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: 900px;
+    padding: 20px;
+    color: white;
+}
+
+
+.BTN {
+    padding: 7px 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    color: #39865B;
+    margin-bottom: 20px;
+}
+
+
+.banner-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.banner-content h1 span {
+    display: block;
+    color: #36A269;
+}
+
+
+.banner-content p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+
+.banner-btn {
+    padding: 12px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.Note-Container {
+    width: 85%;
+    max-width: 1400px;
+    margin: 80px auto 40px;
+    text-align: center;
+}
+.section-heading {
+    font-size: 36px;
+    font-weight: 700;
+    color: #14263D;
+    margin-bottom: 15px;
+}
+
+.sub-title {
+    font-size: 16px;
+    color: #627083;
+    line-height: 1.6;
+}
+
+
+.Card-Containers .cards{
+    width: 85%;
+    max-width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    align-items: stretch;
+    margin: 0 auto;
+
+}
+.cards .card-1,
+.cards .card-2,
+.cards .card-3,
+.cards .card-4 {
+    flex: 1;
+    padding: 25px;
+    background-color: #white;
+    border: 1px solid #E5EAF0;
+    border-radius: 12px;
+    text-align:center;
+}
+
+.cards .logo {
+    width: 65px;
+    height: 65px;
+    margin: 0 auto 20px;
+    /* display: block; */
+}
+.cards .logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    /* text-align: center; */
+}
+.cards .card-title h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #14263D;
+    margin-bottom: 12px;
+}
+
+.cards .card-subtitle p {
+    font-size: 14px;
+    color: #64748B;
+    line-height: 1.6;
+}
+
+
+/* Second Brain Main Section */
+.Second-brain-container {
+    width: 100%;
+    padding: 80px 0;
+    background-color: #FFFFFF;
+}
+
+/* Main Content */
+.Second-brain-container .section-contents {
+    width: 85%;
+    max-width: 1400px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+/* Left Side Image */
+.Second-brain-container .logo {
+    width: 50%;
+    padding: 20px;
+}
+
+.Second-brain-container .logo img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    object-fit: contain;
+}
+
+/* Right Side Content */
+.Second-brain-container .cards {
+    width: 50%;
+}
+
+/* Solution Message */
+.Second-brain-container .section-message p {
+    color: #39865B;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+/* Heading */
+.Second-brain-container .section-heading h3 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #14263D;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+/* Description */
+.Second-brain-container .section-description p {
+    font-size: 15px;
+    color: #64748B;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+/* Feature List */
+.Second-brain-container .section-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Second-brain-container .section-list li {
+    font-size: 15px;
+    color: #334155;
+    margin-bottom: 18px;
+    line-height: 1.5;
+    padding-left: 28px;
+    position: relative;
+}
+
+/* Green Check Icon */
+.Second-brain-container .section-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #39865B;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
